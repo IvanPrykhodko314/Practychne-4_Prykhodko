@@ -1,0 +1,1 @@
+print(f"\nПарні числа з перевіркою на подільність на три: {[[i, "Ділиться на три" if i % 3 == 0 else "Не ділиться на три"] for i in range(20) if i % 2 == 0]}\n\nПрості числа у діапазоні: {[num for num in range(2, int(input(f"Уведіть поріг діапазону: "))) if all(num % i != 0 for i in range(2, int(num**0.5) + 1))]}")
