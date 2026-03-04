@@ -1,0 +1,1 @@
+print("Парне" if int(input())%2==0 else "Непарне")
